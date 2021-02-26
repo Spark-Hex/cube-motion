@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.navbar {
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	background-image: linear-gradient(#C0C0C0, rgba(192,192,192,0.0));
+	height: 4.9rem;
+}
+
+.navbar div {
+	animation-name: grow;
+	animation-delay: 0.2s;
+	animation-duration: 0.5s;
+	animation-fill-mode: both;
+}
+@keyframes grow {
+	from {transform: scale(0.75);}
+	to {transform: scale(1);}
+}
+
+.navbar a {
+	color: #000000;
+	font-size: 1.6rem;
+	transition: font-size 0.2s ease;
+}
+.navbar a:hover {
+	text-decoration: none;
+	font-size: 2rem;
+}
